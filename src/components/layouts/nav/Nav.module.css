@@ -1,0 +1,27 @@
+.navigation {
+  display: flex;
+  column-gap: 0.2rem;
+  letter-spacing: 0.8px;
+}
+
+.navigation a {
+  border-radius: 5px;
+  padding: 0.5rem 0.8rem;
+  transition: background-color 0.5s ease-in 0s;
+  font-size: clamp(0.8rem, 0.7351rem + 0.4324vw, 1.1rem);
+}
+
+.navigation a:hover {
+  background-color: var(--color-neutro-variant);
+}
+
+.isActive {
+  background-color: var(--color-neutro-variant);
+}
+
+/* media querys movile => md*/
+@media screen and (max-width: 960px) {
+  .navigation {
+    display: none;
+  }
+}

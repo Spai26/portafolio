@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: var(--font-body);
+}
+
+a,
+a:active,
+a:visited {
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  color: var(--color-primary);
+}
+/*for logo*/
+h1,
+a {
+  font-size: clamp(1.5rem, 0.6724rem + 2.7586vw, 3rem);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.1;
+  font-family: var(--font-heading);
+}
+
+img {
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+p {
+  margin: 0;
+}

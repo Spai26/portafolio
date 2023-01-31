@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=PT+Sans:wght@700&display=swap");
+
+:root {
+  --font-heading: "PT Sans", sans-serif;
+  --font-body: "Noto Sans", sans-serif;
+  --color-background: #453c67;
+  --color-primary: #fff;
+  --color-secundary: #28ffbf;
+  --color-neutro: rgb(116, 126, 242);
+  --color-neutro-variant: rgb(91, 99, 196);
+
+  --container-width-sm: 480px;
+  --container-width-md: 960px;
+  --container-width-lg: 1350px;
+}
+
+/*
+movile :sm (480px)
+ tablet :md (960px)
+ ordenador :lg (1320px)
+ */

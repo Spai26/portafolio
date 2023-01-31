@@ -1,0 +1,10 @@
+@import "./normalize.css";
+@import "./typografy.css";
+@import "./variables.css";
+
+.App {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-background);
+  color: var(--color-primary);
+}

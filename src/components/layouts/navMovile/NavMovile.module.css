@@ -1,0 +1,60 @@
+.movile {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+}
+
+/* media querys movile => md*/
+@media screen and (max-width: 960px) {
+  .movile {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .navigation_movile {
+    position: absolute;
+    top: 7vh;
+    left: 0;
+    right: 0;
+    height: 93vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+  }
+
+  .navigation_movile {
+    background-color: var(--color-neutro);
+  }
+  .navigation_movile a {
+    padding: 0.5rem;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.5s ease-in 0s;
+  }
+
+  .navigation_movile a:hover {
+    width: 100%;
+    text-align: center;
+    background-color: var(--color-neutro-variant);
+  }
+
+  .isActive {
+    width: 100%;
+    text-align: center;
+    opacity: 0.6;
+    background-color: var(--color-neutro-variant);
+  }
+
+  /*action for click hamburger*/
+  .isOpen {
+    display: flex;
+  }
+}
